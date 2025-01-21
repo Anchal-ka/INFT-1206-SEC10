@@ -1,0 +1,44 @@
+body{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+  address{
+    text-align: right;
+    font-family: cursive ;
+  }
+  main {
+    text-align: left;
+  }
+  time{
+    text-align: right;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+  }
+  .h2{
+    font-size: 1.4em;
+  }
+  .p1{
+    text-align: 20px;
+
+  }
+  .para{
+    margin-left: 10px ;
+
+  }
+  .p2{
+    text-align: right;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  p,ul,ol,dl,address {
+    font-size: 1.1em;
+  }
+  
+  p, li, address {
+    line-height: 1.5;
+  }
