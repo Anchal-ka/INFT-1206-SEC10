@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+    width: 200px solid black;
+    
+  }
+div{
+    width: 200px;/*question1*/
+    height: 100px;/*question2*/
+    display: flex;/*question3*/
+    align-items: center;/*question4*/
+    font-size: 18px;/*question5*/
+    color: white;/*question6*/
+    background-color: red;/*question6*/
+    text-shadow: 4px 4px 4px black;/*question7*/
+    border-radius: 8px;/*question 8*/
+    justify-content: center;
+    border: 1px solid rgb(104, 23, 23);/*question9*/
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0)0%,rgba(0,0,0,0)0%,rgba(0,0,0,0)0%,rgba(0,0,0,0)0%,);/*queston 10*/
+    box-shadow: 40px 90px 6px rgba(0,0,0,0),
+    inset 2px 2px 5px rgba(0,0,0,0),
+    inset -2px -2px 5px rgba(0,0,0,0);/*question 9*/
+    margin:auto;
+}
+  
+  
+  
