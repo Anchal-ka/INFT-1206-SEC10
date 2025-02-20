@@ -1,0 +1,113 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+
+  }
+  nav ul li{
+    float: 1;
+  }
+  article img{
+    float: left;
+  }
+
+  /*my code*/
+  nav ul {/*making the first navbar that consist main menu comes in flex form*/
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline;
+    padding: 0 15px;
+    color: white;
+    cursor: pointer;
+  }
+  main{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  article {
+      width: 65%;
+  }
+  
+  aside {
+      width: 30%;
+  }
+ .photos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);/*to make pictures of ballon comes in reapeat at column and row in 2 */
+      gap: 10px;
+  }
+  .photos img {
+    width: 100%;
+    height: auto;
+  }
+  .feature {
+    width: 100%;
+    max-width: 200px;
+    float: left;
+    margin-right: 20px;
+  }
+ .grid { /*making the format in grid shape to match the given picture*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+ article, aside {
+    padding: 20px;
+  }
+
