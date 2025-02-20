@@ -89,7 +89,7 @@ body {
  .photos {
       display: grid;
       grid-template-columns: repeat(2, 1fr);/*to make pictures of ballon comes in reapeat at column and row in 2 */
-      gap: 10px;
+      gap: 2px;
   }
   .photos img {
     width: 100%;
@@ -99,7 +99,7 @@ body {
     width: 100%;
     max-width: 200px;
     float: left;
-    margin-right: 20px;
+    margin-right: 19px;
   }
  .grid { /*making the format in grid shape to match the given picture*/
     display: flex;
@@ -108,6 +108,6 @@ body {
   }
 
  article, aside {
-    padding: 20px;
+    padding: 19px;
   }
 
