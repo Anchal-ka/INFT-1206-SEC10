@@ -178,7 +178,7 @@ function updateBallCount() {
 //  loop to draw, update, and detect collisions for each ball and the evil circle
 function loop() {
  
-  ctx.fillStyle = "rgba(144, 213, 236, 0.25)";
+  ctx.fillStyle = "rgba(83, 160, 186, 0.25)";
   ctx.fillRect(0, 0, width, height);
 
   //  check collisions for each ball
