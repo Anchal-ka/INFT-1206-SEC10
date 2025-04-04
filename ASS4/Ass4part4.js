@@ -10,13 +10,13 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Function to generate random RGB color value
+// Function For random color value
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
 
-// Shape Class (base class for Ball and EvilCircle)
+// Shape Class (base class)
 class Shape {
   constructor(x, y, velX, velY) {
     this.x = x;
@@ -139,7 +139,7 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-// Array to store balls
+// Array 
 const balls = [];
 
 
@@ -157,10 +157,10 @@ while (balls.length < 25) {
   balls.push(ball);
 }
 
-// Create an instance of EvilCircle
+
 const evilCircle = new EvilCircle(100, 100); 
 
-// Ball count display
+//ball-cont 
 const ballCountElement = document.createElement("p");
 ballCountElement.style.position = "absolute";
 ballCountElement.style.top = "35px";
@@ -168,7 +168,7 @@ ballCountElement.style.right = "5px";
 ballCountElement.style.color = "#aaa";
 document.body.appendChild(ballCountElement);
 
-// Function to update the ball count
+//update the ball count
 function updateBallCount() {
   const aliveBalls = balls.filter(ball => ball.exists);
   ballCountElement.textContent = `Ball count: ${aliveBalls.length}`;
@@ -195,7 +195,6 @@ function loop() {
   evilCircle.checkBounds();
   evilCircle.collisionDetect();
 
-  // Continue the animation
   requestAnimationFrame(loop);
 }
 
